@@ -1,0 +1,40 @@
+
+
+
+
+.row-posters{
+
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    
+}
+
+
+.row-posters::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    padding: 0.3%;
+    width: 2%;  
+    min-width: 10%;
+    margin-right: 0.3%;  
+    
+}
+
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+.card img:hover{
+    transform: scale(1.08);
+}
+
+h2{
+    text-align: left;
+    margin-left: 0.3%; 
+}
