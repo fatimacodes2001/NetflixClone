@@ -19,7 +19,7 @@ function Row(props){
     }, [])
 
     return(
-        <div className="row">
+        <div className={props.isLargeRow? "row large":"row"} >
 
             <h2>{ props.title }</h2>
             <div className="row-posters">
