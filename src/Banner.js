@@ -27,20 +27,20 @@ export default function Banner(){
 
     return(
         <header className="banner" style={{
-            backgroundSize:"cover",
             backgroundImage:`url(
                 "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
             )`,
-            textAlign:"left",
-            backgroundPosition:"center center"
+            textAlign:"left"
 
         }}>
+            
             
             <div className="banner-contents">
                 <h1 className="banner-title">
                     
                     { movie?.title || movie?.name || movie?.original_name }
                 </h1>
+                
                 <div className="banner-buttons">
                     <button className = "banner-button">Play</button>
                     <button className = "banner-button">My List</button>
