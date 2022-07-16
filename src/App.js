@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import requests from "./requests"
 import Row from './Row';
@@ -6,6 +5,8 @@ import Banner from "./Banner"
 import Nav from "./Nav"
 //netflix-clone-d299e.web.app
 //11fa28afacabf123aba1cc78ffc5bbad
+
+
 const categories = {
   fetchTrending: `TRENDING`,
   fetchNetflixOriginals: `NETFLIX ORIGINALS`,
