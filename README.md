@@ -3,7 +3,7 @@ This is a simple clone of the Netflix user interface created with React. It does
 
 ## Deployment
 The application is hosted on firebase and can be visited using the given link:
-<a href="https://console.firebase.google.com/u/0/project/netflix-clone-1f3f0/hosting/sites/netflix-clone-1f3f0" target="_blank"> <br /> https://console.firebase.google.com/u/0/project/netflix-clone-1f3f0/hosting/sites/netflix-clone-1f3f0</a>
+<a href="https://netflix-clone-1f3f0.web.app/" target="_blank"> <br /> https://netflix-clone-1f3f0.web.app/</a>
 
 
 ## Project Setup
